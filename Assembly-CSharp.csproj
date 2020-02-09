@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{05CE76C6-2327-ADB8-9D98-B87D7814076C}</ProjectGuid>
+    <ProjectGuid>{B35EA613-6CFB-D6DE-7CBE-8F210B11DF7D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,24 +60,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraMove.cs" />
-    <Compile Include="Assets\SetUp.cs" />
-    <Compile Include="Assets\TransparentWindow.cs" />
+    <Compile Include="Assets\BlendShapeMixer\Scripts\BlendShapeMixer.cs" />
+    <Compile Include="Assets\BlendShapeMixer\Scripts\FacialController.cs" />
+    <Compile Include="Assets\BlendShapeMixer\Scripts\FacialSlider.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\EnableSwitch.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\LipSyncDemo_Control.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scenes\Scripts\LipSyncDemo_SetCurrentTarget.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRLipSyncDebugConsole.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRNamedArrayAttribute.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\Helpers\OVRTouchpad.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSync.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContext.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextBase.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextCanned.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextMorphTarget.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncMicInput.cs" />
+    <Compile Include="Assets\Oculus\LipSync\Scripts\OVRLipSyncSequence.cs" />
+    <Compile Include="Assets\Scrips\CameraMove.cs" />
+    <Compile Include="Assets\Scrips\SetUp.cs" />
+    <Compile Include="Assets\Scrips\WindowSettings\TransparentWindow.cs" />
     <None Include="Assets\Lian\After\CullOffShader.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/ProgramData/Unity/2018.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -281,13 +298,13 @@
       <HintPath>D:/ProgramData/Unity/2018.4.9f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/ProgramData/Unity/VtuberSystem ver.Unity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/User/Document/GitHub/Vtuber/VtuberSystem_forUnity/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/ProgramData/Unity/2018.4.9f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
