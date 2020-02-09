@@ -57,7 +57,8 @@ public class CameraMove : MonoBehaviour
 
             Director.Instance.QuitGame();
         }
-
+        
+        
 
         ///カメラのズーム
         {

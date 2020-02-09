@@ -42,12 +42,6 @@ public class TransparentWindow : MonoBehaviour
     /// https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setwindowlonga
     [DllImport("User32.dll")]
     private static extern int SetWindowLong(IntPtr hWnd, int nIndex, uint dwNewLong);
-
-
-     [DllImport("user32.dll", EntryPoint = "SetLayeredWindowAttributes")]
-    static extern int SetLayeredWindowAttributes(IntPtr hwnd, int crKey, byte bAlpha, int dwFlags);
-    
-    
     /// <summary>
     /// Changes the size, position, and Z order of a child, pop-up, or top-level window. These windows are ordered according to their appearance on the screen. The topmost window receives the highest rank and is the first window in the Z order.
     /// </summary>
@@ -76,7 +70,6 @@ public class TransparentWindow : MonoBehaviour
             SetWindowLong(windowHandle, GWL_STYLE, WS_POPUP);
             //SetWindowLong(windowHandle, GWL_EXSTYLE, WS_EX_LAYERD | WS_EX_TRANSPARENT);
             SetWindowLong(windowHandle, GWL_EXSTYLE, WS_EX_LAYERD);
-            //SetLayeredWindowAttributes(windowHandle, 0, 255, 2);
         }
 
         { // SetWindowPos
@@ -84,14 +77,12 @@ public class TransparentWindow : MonoBehaviour
             IntPtr HWND_TOP     = new IntPtr(0);
             IntPtr HWND_BOTTOM = new IntPtr(1);
             IntPtr HWND_NOTOPMOST = new IntPtr(2);
-            
             const uint SWP_NOSIZE = 0x0001;
             const uint SWP_NOMOVE = 0x0002;
             const uint SWP_NOACTIVE = 0x0010;
             const uint SWP_SHOWWINDOW = 0x0040;
 
             SetWindowPos(windowHandle, HWND_TOP, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVE | SWP_SHOWWINDOW);
-
         }
 
         { // DwmExtendFrameIntoClientArea
@@ -103,6 +94,7 @@ public class TransparentWindow : MonoBehaviour
             DwmExtendFrameIntoClientArea(windowHandle, ref margins);
         }
     }
-#endif // !UNITY_EDITOR && UNITY_STANDALONE_WIN
 
+
+#endif // !UNITY_EDITOR && UNITY_STANDALONE_WIN
 }
