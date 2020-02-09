@@ -134,17 +134,17 @@ public class OVRLipSyncMicInput : MonoBehaviour
         {
             if (Microphone.IsRecording(selectedDevice))
             {
-                StopMicrophone();
+                //StopMicrophone();
             }
             return;
         }
 
         if (!Application.isPlaying)
         {
-            StopMicrophone();
+            //StopMicrophone();
             return;
         }
-
+        
         // Lazy Microphone initialization (needed on Android)
         if (!initialized)
         {
@@ -217,8 +217,8 @@ public class OVRLipSyncMicInput : MonoBehaviour
     {
         focused = focus;
 
-        if (!focused)
-            StopMicrophone();
+       // if (!focused)
+            //StopMicrophone();
     }
 
     /// <summary>
@@ -276,7 +276,7 @@ public class OVRLipSyncMicInput : MonoBehaviour
                                         top + ((height + buttonSpaceTop) * i), width, height),
                                Microphone.devices[i].ToString()))
                 {
-                    StopMicrophone();
+                    //StopMicrophone();
                     selectedDevice = Microphone.devices[i].ToString();
                     micSelected = true;
                     GetMicCaps();
