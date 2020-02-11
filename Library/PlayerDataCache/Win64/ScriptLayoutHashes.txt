@@ -1,8 +1,8 @@
 Win64
 PlayerPath?
-D:/User/Desktop/LianApp2/VtuberSystem ver.Unity.exe
+D:/User/Desktop/VtuberApp_for_Vantan/VtuberSystem ver.Unity.exe
 SceneListBegin?
-Assets/Scenes/Sample.unity
+Assets/facial-ar-remote/Examples/Scenes/SlothBlendShapes.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -85,6 +85,7 @@ aa165095bcf0f4d99594ea33df01c81b UnityEngine.UI.dll:UnityEngine.UI.Slider
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+178085309c081e80feec24a3d5251007 Assembly-CSharp.dll:.FaceTracking
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -173,3 +174,77 @@ df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 8cf111447f1f4754264a4de62c3f57df Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 4da386d8a04c165c1c5693211ec64557 Assembly-CSharp.dll:.CameraMove
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARKitControl
+ec8bbdee3e84b5490dd4c061918ad87d Assembly-CSharp.dll:.PointCloudParticleExample
+deaaf7f8c5db9bcdd252b5123ee606e5 Assembly-CSharp.dll:.ModeSwitcher
+59771897d44b00671b559ca8f335b2b8 Assembly-CSharp.dll:.DetectedObjectManager
+a8702db6a9e2f2326cdab669a8201317 Assembly-CSharp.dll:.ObjectScanSessionManager
+0773ff9a0ecfb7878eb10bdc76a6d41b Assembly-CSharp.dll:Unity.Labs.FacialRemote.StreamSettings
+b1ade44af0b799e9cf2951d561f3fd46 Assembly-CSharp.dll:.ColorPickerTester
+bddc9835509ee6b7a4ac8db532673c7f Assembly-CSharp.dll:.GenerateObjectAnchor
+00de963d957d90979dd1b21dcac2c325 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARHitTestExample
+649dddd003fb3b1472517ebb21b5a8af Assembly-CSharp.dll:.ColorLabel
+4ef6539ed83bb9d241cb3a4b7b42c415 Assembly-CSharp.dll:.BallMaker
+1cc9da185c150ad3ff63e08ac66e11a0 Assembly-CSharp.dll:.ARReferenceObjectsSetAsset
+c7db907b0e6d8ff95bbf7eb881c20648 Assembly-CSharp.dll:.UnityARCameraManager
+5c0880dfab6b0790ce0d0ccd3dac0c3f Assembly-CSharp.dll:.UnityARFaceMeshManager
+030fa9a1b46f7f2e0f99470d7d28ce64 Assembly-CSharp.dll:.VideoFormatsExample
+33cb231c693afd78d60581a5cd272781 Assembly-CSharp.dll:.BallMover
+a72b59fc029116362b3317d54b5ec7e0 Assembly-CSharp.dll:.TiltWindow
+281f258aa5168f989b50d54a0bc89f90 Assembly-CSharp.dll:.ARCameraTracker
+ef4cb41fcd9ad2c83c259d89c5a4723f Assembly-CSharp.dll:.WorldMapManager
+e9f2e0bbf55e2dd4c3da63569760821f Assembly-CSharp.dll:.ARReferenceImagesSet
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DontDestroyOnLoad
+9d14be51042b36082fd074afe470c10b Assembly-CSharp.dll:.ARReferenceObjectAsset
+b99a67f0b1b64af0d55277bf17eb5ed1 Assembly-CSharp.dll:Unity.Labs.FacialRemote.PlaybackStream
+d503acfddebcac788dcc909ceb751f71 Assembly-CSharp.dll:.GenerateImageAnchor
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.XR.iOS.ConnectToEditor
+35fa1eced6c5453850fd77f820d57527 Assembly-CSharp.dll:.UnityEyeManager
+b85846f48e1ece0b134e0e1251b6301d Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityRemoteVideo
+239843a6df6201b4c0e6abb3a2f01450 Assembly-CSharp.dll:.RelocalizationControl
+2cd35ebae3db4154d9fd79871066abfa Assembly-CSharp.dll:.AR3DOFCameraManager
+81a231bcb5007010c269ce4e4a5c4335 Assembly-CSharp.dll:.Ballz
+57be11eff65fbb17c758d8a374cc5cec Assembly-CSharp.dll:.UpdateWorldMappingStatus
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARAmbient
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BlendshapeDriver
+e80052be6f994349516ef119502d9146 Assembly-CSharp.dll:.SVBoxSlider
+3ad5f53ce814676a5bba4633d35a5683 Assembly-CSharp.dll:.UnityARFaceAnchorManager
+b13222200b65a7aab07dab0db3a30002 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARVideo
+bf7611f578cc4391f4c42d7d2643311c Assembly-CSharp.dll:UnityEngine.XR.iOS.EditorHitTest
+fea2d676bca3c708f6b399119fa3ca3f Assembly-CSharp.dll:.UnityARUserAnchorExample
+acd6e9b47d9eb18143f0e406b1e68787 Assembly-CSharp.dll:.ParticlePainter
+aab2d9299f28946e00bad7528d4712af Assembly-CSharp.dll:.ColorPicker
+c896001203784eaf50c0839b7a358365 Assembly-CSharp.dll:.UnityARKitPluginSettings
+7949738ace4f5cbe3f21484e8391d331 Assembly-CSharp.dll:.ObjectScanManager
+b08f585ee2f2e1055b0f85a255a769d3 Assembly-CSharp.dll:UnityEngine.UI.BoxSlider
+d9835af5ce701547af1a2a63c5a25090 Assembly-CSharp.dll:UnityEngine.XR.iOS.PrintBounds
+fc01441e5d5b69ef149be4f22a897c42 Assembly-CSharp.dll:.ColorSliderImage
+f347306e1327508175f82d7fdaf6a91d Assembly-CSharp.dll:.SetWorldOriginControl
+1631ec64b250f10a55aac6295ebd439d Assembly-CSharp.dll:UnityEngine.XR.iOS.ARKitRemoteConnection
+35275a61dce450d06c485424be28bd5f Assembly-CSharp.dll:.ObjectText
+79eec3cf1777afdcd1f069c9afa32fa7 Assembly-CSharp.dll:Unity.Labs.FacialRemote.Client
+fcf8670fcab5e098ab49f7a9d975506e Assembly-CSharp.dll:.HitCreateEnvironmentProbe
+e483bf600be1c0c43c778f81975cd000 Assembly-CSharp.dll:.HexColorField
+f84c910f14f32a9d716d85703eaf50ab Assembly-CSharp.dll:Unity.Labs.FacialRemote.CharacterRigController
+344c74b3abf2e69061c6763dbfbabcea Assembly-CSharp.dll:.FocusSquare
+da1285f63ac94df9784985aadd97c771 Assembly-CSharp.dll:Unity.Labs.FacialRemote.StreamReader
+e80052be6f994349516ef119502d9146 Assembly-CSharp.dll:.ColorImage
+bfacedbd2d0a7ae7ec6cb5689bcd2e8f Assembly-CSharp.dll:.VideoFormatButton
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARUserAnchorComponent
+5da0d7d7fdd0cac04aa00b59fa9c0a21 Assembly-CSharp.dll:Unity.Labs.FacialRemote.NetworkStream
+4a351d0439acf9494ef9ddab68aa39c0 Assembly-CSharp.dll:Unity.Labs.FacialRemote.PlaybackData
+fbb893a04802c41965b5af370fe237f2 Assembly-CSharp.dll:UnityEngine.XR.iOS.PickBoundingBox
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BlendshapePrinter
+210a16b42936666e09c122212b61dd0f Assembly-CSharp.dll:Unity.Labs.FacialRemote.BlendShapesController
+1b4ceb9d121f213f5a18f8b37359a6a7 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARGeneratePlane
+4bc3701a5a0528400fe2743c92380ca2 Assembly-CSharp.dll:.ColorSlider
+3dfaa02886b930262fc04c4f05a0301a Assembly-CSharp.dll:.ColorPresets
+70d3712bc26215c596eb4fd4d572666f Assembly-CSharp.dll:UnityEngine.XR.iOS.ARKitFaceTrackingRemoteConnection
+3d964e92af1b2cefee80a49a08caea9c Assembly-CSharp.dll:.GenerateEnvironmentProbeAnchors
+9e24e0b4d00416469d68b2fa3c9a7a3c Assembly-CSharp.dll:.ReflectionProbeGameObject
+cc93643c5ba300cda12aa2a6816653f0 Assembly-CSharp.dll:.ARReferenceImage
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UnityARKitLightManager
+9379c41cebb5b89db51d17cc73b4c3f9 Assembly-CSharp.dll:.ARKitPlaneMeshRender
+3edf99f1f23f40846178ab8f08418322 Assembly-CSharp.dll:.UnityPointCloudExample
+96f116540b6ff5918aa2c65dfa89ec40 Assembly-CSharp.dll:.TongueDetector
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UnityARCameraNearFar

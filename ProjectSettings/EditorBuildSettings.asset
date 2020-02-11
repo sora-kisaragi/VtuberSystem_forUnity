@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sample.unity
     guid: a61b1512557bdd249803e561725a9e04
+  - enabled: 1
+    path: Assets/facial-ar-remote/Examples/Scenes/SlothBlendShapes.unity
+    guid: 647c057ead5854246be7955fbc3022c7
   m_configObjects: {}

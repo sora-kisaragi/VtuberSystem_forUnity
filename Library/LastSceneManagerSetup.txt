@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Sample.unity
+- path: Assets/facial-ar-remote/Examples/Scenes/SlothBlendShapes.unity
   isLoaded: 1
   isActive: 1
